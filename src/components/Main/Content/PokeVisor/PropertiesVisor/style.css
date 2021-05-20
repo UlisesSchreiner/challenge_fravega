@@ -1,0 +1,21 @@
+.propiertyViewer {
+    width: 100%;
+}
+
+.propiertyTitle {
+    text-shadow: 1px 1px 1px #8dadf8;
+}
+
+.propiertyTitle:hover {
+    text-shadow: 1px 1px 1px #6e97f7;
+}
+
+.propertyButton {
+    width: 100%;
+}
+
+.propertyList {
+    box-shadow: 2px 2px 2px #cad0df;
+    max-height: 300px;
+    overflow: scroll;
+}

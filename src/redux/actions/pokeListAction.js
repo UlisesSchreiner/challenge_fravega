@@ -26,7 +26,7 @@ export const fetchInformation = (offset) => {
     return (dsipatch) => {
         dsipatch(getData())
 
-        let url = API_SOCKET + 'ability/?limit=5&offset=' + offset;
+        let url = API_SOCKET + 'pokemon/?limit=5&offset=' + offset;
         fetch( url, {
             headers:{
               'Content-Type': 'application/json'

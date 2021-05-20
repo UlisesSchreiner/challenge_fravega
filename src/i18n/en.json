@@ -1,5 +1,11 @@
 {
     "LANGUAGE": "English",
     "WEIGTH": "Weigth",
-    "HEIGHT": "Heigth"
+    "HEIGHT": "Heigth",
+    "CHARACT": "Property",
+    "VALUE": "Value",
+    "BASE_EXPERIENCE": "Base experience",
+    "ABILITIES": "Abilities",
+    "MOVES": "Moves",
+    "GAMES": "Games"
 }

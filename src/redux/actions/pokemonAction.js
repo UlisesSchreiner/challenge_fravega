@@ -22,12 +22,10 @@ export const getDataFailure = data => {
 }
 
 
-export const fetchPokemon = (_url) => {
+export const fetchPokemon = (_name) => {
     return (dsipatch) => {
         dsipatch(getData())
-
-        let id = _url.split('/')[6];
-        let url = API_SOCKET + 'pokemon/' + id;
+        let url = API_SOCKET + 'pokemon/' + _name + '/';
 
         fetch( url, {
             headers:{

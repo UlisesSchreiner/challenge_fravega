@@ -13,7 +13,7 @@ export default function NavBar(params) {
     };
 
     return (
-        <nav className="navbar navbar-light d-flex justify-content-around navBarHeigth">
+        <nav className="navbar navbar-light d-flex justify-content-around navBarHeigth border border-buttom">
             <a className="navbar-brand pokesTitle" href="#">Pokes</a>
 
             <div>

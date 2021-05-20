@@ -37,20 +37,16 @@ export default function (params) {
                 <li className="page-item active"><a className="page-link" href="#">{params.state.pagination.offset}</a></li>
                 <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 5)}><a className="page-link" href="#">{params.state.pagination.offset + 5}</a></li>
                 <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 10)}><a className="page-link" href="#">{params.state.pagination.offset + 10}</a></li>
-                <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 15)}><a className="page-link" href="#">{params.state.pagination.offset + 15}</a></li>
-                <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 20)}><a className="page-link" href="#">{params.state.pagination.offset + 20}</a></li>
             </Fragment>
         )
     }
 
     const normal_pagination = () => {
         return (
-            <Fragment>
-                <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset - 10)}><a className="page-link" href="#">{params.state.pagination.offset - 10}</a></li>
+            <Fragment>  
                 <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset - 5)}><a className="page-link" href="#">{params.state.pagination.offset - 5}</a></li>
                 <li className="page-item active"><a className="page-link" href="#">{params.state.pagination.offset}</a></li>
                 <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 5)}><a className="page-link" href="#">{params.state.pagination.offset + 5}</a></li>
-                <li className="page-item" onClick={() => pagination_number(params.state.pagination.offset + 10)}><a className="page-link" href="#">{params.state.pagination.offset + 10}</a></li>
             </Fragment>
         )
     }

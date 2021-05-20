@@ -24,22 +24,21 @@ export default function Content(params) {
         if (!$('#pokeVisor').is(':visible')) {
             $('#pokeVisor').toggle(500);
         }
-
         dispatch(fetchPokemon(_name))
 
     }
 
     return (
-        <div className="container contentHeigt">
+        <div className="container contentHeigt pt-4">
             <div className="row">
-                <div className="col-4">
+                <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 order-2 order-sm-2 order-md-1">
                     <div className="border rounded border-primary p-4">
                         <Paginator state={params.state} setState={params.setState}></Paginator>
                         <PokesList refresh_visor={refresh_visor}></PokesList>
                     </div>
 
                 </div>
-                <div className="col-6">
+                <div className="col-sm-12 col-md-8 col-lg-8 col-xl-8 order-1 order-sm-1 order-md-2 mb-3">
                     <div id="pokeVisor" style={{ display: 'none' }}>
                         {
                             store.pokemonReducer.pokemon.sprites ? (

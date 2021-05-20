@@ -1,5 +1,11 @@
 {
     "LANGUAGE": "Español",
     "WEIGTH": "Peso",
-    "HEIGHT": "Alto"
+    "HEIGHT": "Alto",
+    "CHARACT": "Propiedad",
+    "VALUE": "Valor",
+    "BASE_EXPERIENCE": "Experiencia base",
+    "ABILITIES": "Habilidades",
+    "MOVES": "Movimientos",
+    "GAMES": "Juegos"
 }
